@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:gravity="center"
+    android:background="@drawable/material"
+    android:layout_height="match_parent"
+    tools:context="com.example.programmer.womensafety.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#f4ebeb"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        />
+
+    <com.hitomi.cmlibrary.CircleMenu
+        android:id="@+id/CircleMenu"
+
+        android:layout_width="330dp"
+        android:layout_height="330dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/exit"
+        android:onClick="ShowDialog"
+        />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:androd="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/contacttt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text=" Emergency Number "
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        />
+    <at.markushi.ui.CircleButton
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        android:layout_centerInParent="true"
+        app:cb_color="#f2ad0d"
+        app:cb_pressedRingWidth="16dp"
+        android:onClick="callContacts"
+        android:src="@drawable/ic_assignment_ind_black_24dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="back"
+        android:gravity="right"
+        android:onClick="BackButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        androd:layout_marginBottom="14dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/back"
+        />
+
+
+</RelativeLayout>

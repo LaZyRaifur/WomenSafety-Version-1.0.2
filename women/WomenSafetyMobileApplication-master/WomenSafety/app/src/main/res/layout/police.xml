@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f5bfb2b2"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageButton
+        android:onClick="BackButton"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/policeman"
+        android:layout_gravity="center"
+
+        android:id="@+id/imageView" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="DRPS"
+                android:text="@string/police_name1" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="TPS"
+                android:text="@string/police_name2" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="DPS"
+                android:text="@string/police_name3" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="BPS"
+                android:text="@string/police_name4" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="USPS"
+                android:text="@string/police_name5" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="MT"
+                android:text="@string/police_name6" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="MPS"
+                android:text="@string/police_name7" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="D27PB"
+                android:text="@string/police_name8" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="DMT"
+                android:text="@string/police_name9" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="HT"
+                android:text="@string/police_name10" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="KPS"
+                android:text="@string/police_name11" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="NMPS"
+                android:text="@string/police_name12" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="SNPS"
+                android:text="@string/police_name13" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="SPS"
+                android:text="@string/police_name14" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="DMPH"
+                android:text="@string/police_name15" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="CBPS"
+                android:text="@string/police_name16" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="LPS"
+                android:text="@string/police_name17" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="CH"
+                android:text="@string/police_name18" />
+
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="PMT"
+                android:text="@string/police_name19" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

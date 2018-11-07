@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:id="@+id/radioGroup"
+        android:layout_height="500dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Red"
+            android:text="red"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Yellow"
+            android:text="Yellow"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Megenta"
+            android:text="Magenta"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Cyan"
+            android:text="Cyan"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EtPhone"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:hint=" Phone Number"
+
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EtSms"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:hint=" Enter Your Message"
+
+
+            />
+
+        <ImageButton
+            android:src="@drawable/submit"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/idBtnStart"
+            android:layout_gravity="center"
+            android:onClick="SendSms"
+
+            />
+
+
+    </RadioGroup>
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:onClick="BackButton"
+        android:src="@drawable/exit" />
+
+</RelativeLayout>

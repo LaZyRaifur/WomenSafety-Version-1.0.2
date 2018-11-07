@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">WomenSafety</string>
+    <string name="ambulance_name1">Zoom Ambulance Service</string>
+    <string name="ambulance_name2">Jamuna Ambulance Service</string>
+    <string name="ambulance_name3">Salman Ambulance Service</string>
+    <string name="ambulance_name4">Khaled Ambulance Service</string>
+    <string name="ambulance_name5">Al-Amin Ambulance Service</string>
+    <string name="ambulance_name6">Haque Ambulance Service</string>
+    <string name="ambulance_name7">HASBD Ambulance Service</string>
+    <string name="ambulance_name8">Desh Ambulance Service</string>
+    <string name="ambulance_name9">Tuba Ambulance Service</string>
+    <string name="ambulance_name10">Alif Ambulance Service</string>
+
+    <string name="police_name1">Dhaka Railway Police Station</string>
+    <string name="police_name2">Tejgaon Police Station</string>
+    <string name="police_name3">Darussalam Police Station</string>
+    <string name="police_name4">Banani Police Station</string>
+    <string name="police_name5">Uttara East Police Station</string>
+    <string name="police_name6">Motijheel Thana</string>
+    <string name="police_name7">Mohammadpur Police Station</string>
+    <string name="police_name8">Dhanmondi 27 Police Box</string>
+    <string name="police_name9">Dhanmondi Model Thana</string>
+    <string name="police_name10">Hazaribag Thana</string>
+
+    <string name="police_name11">Kalabagan Police Station</string>
+    <string name="police_name12">New Market Police Station</string>
+    <string name="police_name13">Sher-E-Bangla Nagar Police Station</string>
+    <string name="police_name14">Shahbagh Police Station</string>
+    <string name="police_name15">Dhaka Metropolitan Police Headquarters</string>
+    <string name="police_name16">Chawk Bazar Police Station</string>
+    <string name="police_name17">Lalbagh Police Station</string>
+    <string name="police_name18">CID Headquarters</string>
+    <string name="police_name19">Paltan Model Thana</string>
+
+    <string name="Open">Navigation</string>
+    <string name="Close">Navigation</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#d7d7c0"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:background="#a95b5c64"
+        android:onClick="BackButton"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/ambulance"
+
+        android:id="@+id/imageView" />
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    ><LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="@string/ambulance_name1"
+        android:onClick="ZoomAmbulance"
+        />
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="@string/ambulance_name2"
+        android:onClick="JamunaAmbulance"
+        />
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="@string/ambulance_name3"
+        android:onClick="SalmanAmbulance"
+        />
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="@string/ambulance_name4"
+        android:onClick="KhaledAmbulance"
+        />
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="@string/ambulance_name5"
+        android:onClick="AlaminAmbulance"
+        />
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="@string/ambulance_name6"
+        android:onClick="HaqueAmbulance"
+        />
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="@string/ambulance_name7"
+        android:onClick="HasbdAmbulance"
+        />
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="@string/ambulance_name8"
+        android:onClick="DeshAmbulance"
+        />
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="@string/ambulance_name9"
+        android:onClick="TubaAmbulance"
+        />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
